@@ -13,23 +13,6 @@ Atualmente, estou focado em desenvolver projetos práticos para evoluir minhas h
 
 ---
 
-## 🚀 Projetos
-
-### 📊 Projeto 1 - (Nome do projeto)
-- Descrição: breve explicação do problema
-- Ferramentas: Python, Pandas, Excel
-- Resultado: o que você descobriu ou criou
-
-🔗 Link: (coloque aqui o link do projeto)
-
----
-
-### 📊 Projeto 2 - (Nome do projeto)
-- Descrição:
-- Ferramentas:
-- Resultado:
-
-🔗 Link:
 
 ---
 
