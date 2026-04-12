@@ -2,10 +2,6 @@
 <html lang="pt-br">
 <head>
   <meta charset="UTF-8">
-
-  <img src="https://media.licdn.com/dms/image/v2/D4D03AQEAcY3aLjJvHA/profile-displayphoto-scale_400_400/B4DZwew4X7IUAo-/0/1770042656927?e=1777507200&v=beta&t=lHongPKd40mZRSfSpqAx5wZdHB3IUQMNOPvj3kj5BhM" alt="Foto de perfil" class="object-cover w-full h-full " style="object-position: center 56%; transform: scale(1);">
-
-  
   <title>Rafael Apolinário | Analista de Dados</title>
 
   <!-- Fonte -->
@@ -113,6 +109,7 @@
     .social {
       margin-top: 20px;
       display: flex;
+      justify-content: center;
       gap: 20px;
       font-size: 1.5rem;
     }
@@ -125,6 +122,21 @@
     .social a:hover {
       color: #38bdf8;
       transform: scale(1.2);
+    }
+
+    /* FOTO REDONDA */
+    .foto {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 20px;
+      border: 3px solid #38bdf8;
+      transition: 0.3s;
+    }
+
+    .foto:hover {
+      transform: scale(1.1);
     }
 
     footer {
@@ -146,10 +158,13 @@
 
 <header>
   <div>
+
+    <!-- FOTO -->
+    <img src="https://media.licdn.com/dms/image/v2/D4D03AQEAcY3aLjJvHA/profile-displayphoto-scale_400_400/B4DZwew4X7IUAo-/0/1770042656927?e=1777507200&v=beta&t=lHongPKd40mZRSfSpqAx5wZdHB3IUQMNOPvj3kj5BhM" class="foto">
+
     <h1>Rafael <span>Apolinário</span></h1>
     <p>Transformando dados em decisões 📊</p>
 
-    <!-- Redes sociais -->
     <div class="social">
       <a href="https://github.com/RafaelApolinario90" target="_blank">
         <i class="fab fa-github"></i>
@@ -159,6 +174,7 @@
         <i class="fab fa-linkedin"></i>
       </a>
     </div>
+
   </div>
 </header>
 
