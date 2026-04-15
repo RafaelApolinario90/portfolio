@@ -84,3 +84,6 @@ Estou em busca da minha **primeira oportunidade na área de Análise de Dados**,
 Feito com 💻, dedicação e muita vontade de aprender.
 
 
+
+
+
